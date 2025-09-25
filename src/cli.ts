@@ -28,8 +28,6 @@ program
         process.exit(1);
       }
 
-      Session.init();
-
       initServer(fileProcessor.mdDocs, port);
 
       fileProcessor.mdDocs.forEach((file) => {
